@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-*{
-    box-sizing: border-box;
-    font-family: Madimi One;
-}
 
 :root{
     --text: #060b07;
@@ -10,4 +6,11 @@
     --primary: #66a86f;
     --secondary: #a4cbb7;
     --accent: #7fb6a1;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Madimi One;
+
+    color: var(--text);
 }
