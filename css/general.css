@@ -15,6 +15,9 @@ body{
     color: var(--text);
 }
 
+nav{
+    margin-bottom: 50px;
+}
 nav ul{
     list-style-type: none;
     text-align: center;
