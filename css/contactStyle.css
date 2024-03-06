@@ -1,5 +1,9 @@
-*{
-    color: #060b07;
+:root{
+    --text: #060b07;
+    --background: #f9fbf9;
+    --primary: #66a86f;
+    --secondary: #a4cbb7;
+    --accent: #7fb6a1;
 }
 
 body{
@@ -10,17 +14,18 @@ body{
 }
 
 header{
-    background-color: #45724b;
-    height: 100px;
-    box-shadow: 10px 10px #a4cbb7, -10px -10px #66a86f; 
+    background-color: var(--secondary);
+    box-shadow: 10px 10px var(--primary), -10px -10px #66a86f; 
     border-radius: 30px;
     margin-bottom: 40px;
+    font-size: x-large;
+    padding: 3px;
+    margin-top: 20px;
 }
 
 header h2{
-    padding-top: 33px;
     color: white;
-    text-shadow: 5px 3px rgba(227, 255, 214, 0.473);
+    text-shadow: 5px 3px var(--primary);
 }
 
 nav{
