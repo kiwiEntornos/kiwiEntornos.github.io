@@ -58,11 +58,12 @@ main{
     border-radius: 30px;
     box-shadow: 10px 10px #a4cbb7;
     margin-left: 20px;
+    padding-top: 40px;
 }
 
-#formulario form h2{
+section h2{
     color: white;
-    text-shadow: 5px 3px #a4cbb7;
+    text-shadow: 5px 3px var(--secondary);
 }
 
 iframe{
@@ -71,13 +72,11 @@ iframe{
     border-radius: 30px;
 }
 
-form{
-    margin-top: 90px;
-}
 
 input{
     width: 300px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #area_mensaje{
