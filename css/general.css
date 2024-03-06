@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Madimi One;
+}
+
 :root{
     --verde: #66A86F;
     --verdeClaro: #a4cbb7;
