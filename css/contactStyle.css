@@ -1,0 +1,52 @@
+*{
+    color: #060b07;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: #f9fbf9;
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+aside{
+    display: inline-block;
+    background-color:  #a4cbb7;
+    width: 35%;
+    padding: 30px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+main{
+    display: inline-block;
+    background-color: #66a86f;
+    width: 55%;
+    float: right;
+    height: 500px;
+    border-radius: 30px;
+}
+
+iframe{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+form{
+    margin: 30px;
+    text-align: left;
+}
+
+input{
+    width: 90%;
+}
+
+#area_mensaje{
+    width: 90%;
+    height: 150px;
+}
