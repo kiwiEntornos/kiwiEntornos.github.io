@@ -39,6 +39,7 @@ nav ul li a:hover{
 footer{
     background-color: var(--footer);
     padding: 10px;
+    margin-top: 50px;
 }
 footer ul{
     list-style-type: none;

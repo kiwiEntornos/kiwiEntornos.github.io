@@ -16,10 +16,20 @@ header{
     text-shadow: 5px 5px 2px var(--secondary);
     text-align: center;
 }
-
 hr{
     padding: 5px;
     background-color: var(--background);
 }
 
-
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10% 10px;
+    background-color: var(--secondary);
+}
+img{
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid var(--footer);
+}
