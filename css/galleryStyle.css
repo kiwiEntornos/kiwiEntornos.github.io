@@ -1,4 +1,58 @@
-figure img{
-    width: 20%;
+:root{
+    --text: #060b07;
+    --background: #f9fbf9;
+    --primary: #66a86f;
+    --secondary: #a4cbb7;
+    --accent: #7fb6a1;
+}
 
+figure img{
+    width: 100%;
+    display: block;
+    border-radius: 40px;
+}
+
+figure{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    background-color: var(--accent);
+    border-radius: 40px;
+}
+
+
+figcaption{
+    display: inline;
+    width: 100%;
+}
+
+
+
+#gallery ul{
+    margin: 0px;
+    padding: 0px;
+
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+#gallery li{
+    display: inline-block;
+    margin: 0px 0px;
+    padding: 0px;
+    width: 30%;
+}
+
+
+
+body{
+    width: 90%;
+    margin: auto;
+    background-color: var(--background);
 }
