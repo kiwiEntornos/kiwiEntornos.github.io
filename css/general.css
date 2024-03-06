@@ -7,7 +7,6 @@
     --secondary: #a4cbb7;
     --accent: #7fb6a1;
 }
-
 *{
     box-sizing: border-box;
     font-family: Madimi One;
@@ -15,6 +14,7 @@
 body{
     color: var(--text);
 }
+
 nav ul{
     list-style-type: none;
     text-align: center;
@@ -34,4 +34,19 @@ nav ul li a:hover{
     padding: 5px;
     border-radius: 10px;
     transition: box-shadow 1s;
+}
+
+footer{
+    background-color: var(--footer);
+    padding: 10px;
+}
+footer ul{
+    list-style-type: none;
+    text-align: center;
+}
+footer ul li a{
+    color: #060b07;
+}
+footer ul li a:hover{
+    color: var(--secondary);
 }

@@ -22,10 +22,4 @@ hr{
     background-color: var(--background);
 }
 
-footer{
-    background-color: var(--footer);
-    padding: 10px;
-}
-footer a{
-    color: #060b07;
-}
+
