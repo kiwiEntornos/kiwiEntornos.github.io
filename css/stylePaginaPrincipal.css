@@ -4,6 +4,7 @@
     --primary: #66a86f;
     --secondary: #a4cbb7;
     --accent: #7fb6a1;
+    --footer: #529170;
 }
 body{
     margin: 0px;
@@ -15,27 +16,16 @@ header{
     text-shadow: 5px 5px 2px var(--secondary);
     text-align: center;
 }
-nav ul{
-    list-style-type: none;
-    text-align: center;
-}
-nav ul li{
-    display: inline-block;
-}
-nav ul li a{
-    color: #060b07;
-    text-decoration: none;
-    font-size: x-large;
-    margin: 0px 70px;
-}
-nav ul li a:hover{
-    background-color: var(--secondary);
-    box-shadow: 5px 5px 0px var(--background);
-    padding: 5px;
-    border-radius: 10px;
-    transition: box-shadow 1s;
-}
+
 hr{
     padding: 5px;
     background-color: var(--background);
+}
+
+footer{
+    background-color: var(--footer);
+    padding: 10px;
+}
+footer a{
+    color: #060b07;
 }
