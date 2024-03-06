@@ -51,9 +51,7 @@ body {
     background-color: var(--background);
 }
 
-header,
-nav,
-footer {
+header,nav,footer {
     background-color: var(--primary);
 }
 
