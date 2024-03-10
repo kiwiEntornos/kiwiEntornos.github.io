@@ -1,4 +1,4 @@
-sizes = ["Pequeño", "Mediano", "Grande"];
+sizes = ["small", "medium", "large"];
 dogs = [
     {
         name: "Lewis",
