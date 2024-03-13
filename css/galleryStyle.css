@@ -51,7 +51,9 @@ body {
     background-color: var(--background);
 }
 
-header,nav,footer {
+header,
+nav,
+footer {
     background-color: var(--primary);
 }
 
@@ -76,6 +78,7 @@ header h1 {
 }
 
 nav ul {
+    padding: 0px;
     padding-top: 1em;
     margin-top: 0px;
 }
